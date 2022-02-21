@@ -10,7 +10,7 @@ const [edit, setEdit] = useState({
   value: '',
 });
 
-const submitupdate = value => {
+const submitUpdate = value => {
   updateTodo(edit.id, value)
   setEdit({
     id: null,
@@ -19,7 +19,7 @@ const submitupdate = value => {
   })
 }
 if(edit.id) {
-  return <ToDoForm edit={edit}  onSubmit={submitupdate} />
+  return <ToDoForm edit={edit}  onSubmit={submitUpdate} />
 }
 
  return todo.map((todo, index)=> (

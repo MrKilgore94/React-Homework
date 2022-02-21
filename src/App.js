@@ -4,6 +4,7 @@ import FlashCard from './FlashCard'
 import MainContainer from './MainContainer';
 import KeyBoard1, {x,y} from './keyboard.js'
 import TodoList from './ToDoList';
+import ToDoForm from './ToDoForm';
 
 
 
@@ -27,9 +28,9 @@ function App() {
          
       </MainContainer>
 
-      <MainContainer header='make todo list'>
+      <MainContainer header='Make to-do list *BROKEN*'>
 
-       
+       <ToDoForm />
    
       </MainContainer>
     </div>
